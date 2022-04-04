@@ -1,0 +1,23 @@
+// Global Settings
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+$transition: ease-in-out 300ms;
+
+$border-radius: 20px;
+$border-radius-small: 12px;
