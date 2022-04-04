@@ -17,7 +17,8 @@ export const ClientsBlock: React.FC = () => {
       className={styles.container}
       variants={opacityVariant}
       initial='hidden'
-      whileInView='visible'>
+      whileInView='visible'
+      viewport={{ once: true }}>
       <h3>Over 31,000 social media managers use our tool daily</h3>
       <div className={styles.images}>
         <img src={ogilvy} alt="Oglivy" />

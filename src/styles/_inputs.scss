@@ -1,0 +1,30 @@
+@import 'colors';
+@import 'global';
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: $white;
+  border: none;
+  padding: 0.625rem 2.5rem;
+  border-radius: $border-radius-small;
+  transition: $transition;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: $blue;
+
+  &:hover {
+    background-color: $blue-hover;
+  }
+}
+
+.btn-alt {
+  background-color: $yellow;
+
+  &:hover {
+    background-color: $yellow-hover;
+  }
+}
