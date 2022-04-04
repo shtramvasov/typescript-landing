@@ -21,3 +21,14 @@ $transition: ease-in-out 300ms;
 
 $border-radius: 20px;
 $border-radius-small: 12px;
+
+
+// Structure
+
+.flex {
+  display: flex;
+}
+
+.cols {
+  flex-direction: column;
+}

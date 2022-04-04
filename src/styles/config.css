@@ -16,6 +16,14 @@ html {
   font-weight: 300;
 }
 
+.flex {
+  display: flex;
+}
+
+.cols {
+  flex-direction: column;
+}
+
 h1 {
   font-size: 4rem;
 }
@@ -42,4 +50,22 @@ p {
 }
 p.light {
   font-weight: 300;
+}
+
+a {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #5187E2;
+  text-decoration: none;
+}
+a:hover {
+  color: #6796E6;
+}
+a.menulink {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212E44;
+}
+a.menulink:hover {
+  color: #5187E2;
 }/*# sourceMappingURL=config.css.map */
