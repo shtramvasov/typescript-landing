@@ -3,7 +3,7 @@ import { MainpageHeader } from '../components/MainpageHeader/MainpageHeader'
 
 export const Mainpage: React.FC = () => {
   return (
-    <MainpageHeader />
+      <MainpageHeader />
   )
 }
 

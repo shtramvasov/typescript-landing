@@ -8,7 +8,6 @@ import { Orderpage } from './pages/Orderpage';
 
 function App() {
   return (
-    <div className='app-wrapper'>
       <Routes>
         <Route path="/" element={<Mainpage />}/>
         <Route path="/pricing" element={<Pricingpage />}/>
@@ -16,7 +15,6 @@ function App() {
         <Route path="/services" element={<Servicespage />}/>
         <Route path="/order" element={<Orderpage />}/>
       </Routes>
-    </div>
   );
 }
 

@@ -48,6 +48,19 @@ html {
   transition: ease-in-out 300ms;
 }
 
+h1 {
+  max-width: 58rem;
+  text-align: center;
+  margin: auto;
+  padding-top: 4rem;
+}
+h1 span.blue {
+  color: #5187E2;
+}
+h1 span.yellow {
+  color: #FFCF53;
+}
+
 @media (max-width: 680px) {
   .container {
     flex-direction: column;
@@ -56,5 +69,8 @@ html {
 
   .nav * {
     padding-left: 1.5rem;
+  }
+  .nav *:nth-child(1) {
+    padding-left: 0;
   }
 }/*# sourceMappingURL=headermenu.module.css.map */

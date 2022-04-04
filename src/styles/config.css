@@ -82,4 +82,10 @@ a.menulink {
 }
 a.menulink:hover {
   color: #5187E2;
+}
+
+@media (max-width: 680px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }/*# sourceMappingURL=config.css.map */

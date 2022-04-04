@@ -2,7 +2,7 @@
 
 // Typography
 h1 {
-  font-size: 4rem; // 64px
+  font-size: clamp(2.5rem, 4rem, 5rem); // 64px
 }
 
 h2 {
@@ -48,5 +48,11 @@ a {
     &:hover {
       color: $blue;
     }
+  }
+}
+
+@media (max-width: $screen-small) {
+  h1 {
+    font-size: 2.5rem;
   }
 }
