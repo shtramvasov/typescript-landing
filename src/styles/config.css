@@ -24,6 +24,20 @@ html {
   flex-direction: column;
 }
 
+.app-wrapper {
+  padding: 2.8rem 6.5rem 0;
+}
+
+@media (max-width: 880px) {
+  .app-wrapper {
+    padding: 1.6rem 4rem 0;
+  }
+}
+@media (max-width: 680px) {
+  .app-wrapper {
+    padding: 1rem 2rem 0;
+  }
+}
 h1 {
   font-size: 4rem;
 }

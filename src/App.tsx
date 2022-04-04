@@ -8,13 +8,15 @@ import { Orderpage } from './pages/Orderpage';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Mainpage />}/>
-      <Route path="/pricing" element={<Pricingpage />}/>
-      <Route path="/features" element={<Featurespage />}/>
-      <Route path="/services" element={<Servicespage />}/>
-      <Route path="/order" element={<Orderpage />}/>
-    </Routes>
+    <div className='app-wrapper'>
+      <Routes>
+        <Route path="/" element={<Mainpage />}/>
+        <Route path="/pricing" element={<Pricingpage />}/>
+        <Route path="/features" element={<Featurespage />}/>
+        <Route path="/services" element={<Servicespage />}/>
+        <Route path="/order" element={<Orderpage />}/>
+      </Routes>
+    </div>
   );
 }
 
