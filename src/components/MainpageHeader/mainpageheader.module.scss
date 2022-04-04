@@ -57,7 +57,14 @@
   }
 }
 
+@media (max-width: $screen-medium) {
+  .images {
+    padding-top: 2rem;
+  }
+}
+
 @media (max-width: $screen-small) {
+
   .container {
     background-image: none;
     background-color: $lightgray;
