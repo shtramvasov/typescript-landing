@@ -1,0 +1,21 @@
+@import '../../../styles/colors';
+
+.container {
+  margin-top: 3rem;
+  background-image: url('../../../img/services-bg.svg');
+
+  h1 {
+    padding: 12rem 1.5rem;
+    max-width: 100%;
+  }
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  contain: content;
+  justify-content: center;
+  gap: 3rem;
+  padding-bottom: 12rem;
+}
+
