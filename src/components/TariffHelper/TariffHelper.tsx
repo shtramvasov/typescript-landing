@@ -12,8 +12,7 @@ export const TarifHelper: React.FC = () => {
       variants={opacityVariant}
       initial='hidden'
       whileInView='visible'
-      viewport={{ once: true }}
-      >
+      viewport={{ once: true }}>
       <h1>Solo, agency or team?We've got you.</h1>
       <p>Run your app with the power you need. No unexpected costs. Your first 30 days are free — no credit card required.</p>
       <div className={styles.card}>
