@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'global';
+@import 'breakpoints';
 
 button {
   font-family: 'Poppins', sans-serif;
@@ -11,6 +12,16 @@ button {
   border-radius: $border-radius-small;
   transition: $transition;
   cursor: pointer;
+}
+
+button:disabled {
+  background-color: $disabled;
+  color: $disabled-font;
+
+  &:hover {
+    background-color: $disabled;
+    color: $disabled-font;
+  }
 }
 
 .btn {
@@ -26,5 +37,32 @@ button {
 
   &:hover {
     background-color: $yellow-hover;
+  }
+}
+
+
+input {
+  border: 1px solid $darkgray;
+  font-family: 'Poppins',sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 28rem;
+  border-radius: $border-radius-small;
+  padding: 0.7rem 1.5rem;
+  transition: $transition;
+
+  &:focus {
+    outline: none;
+    border: 1px solid darken($darkgray, 10%);
+  }
+}
+
+.gray {
+  background-color: $lightgray;
+}
+
+@media (max-width: $screen-small) {
+  input {
+    width: 18rem;
   }
 }

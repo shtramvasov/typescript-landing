@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom'
 interface Props {
   text: string,
   color: 'blue' | 'yellow',
-  link?: string
+  link?: string,
+  disabled?: boolean
 }
 
-export const Button: React.FC<Props> = ({text, color, link}) => {
+export const Button: React.FC<Props> = ({text, color, link, disabled}) => {
   return (
-    <Link to={`/${link}`}><button className={color === 'blue' ? 'btn' : 'btn-alt'}>{text}</button></Link>
+    <Link to={`/${link}`}><button disabled={disabled} className={color === 'blue' ? 'btn' : 'btn-alt'}>{text}</button></Link>
   )
 }

@@ -1,0 +1,33 @@
+.container {
+  margin: 9rem 0;
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+.container h4 {
+  color: #5187E2;
+  padding-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 980px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 680px) {
+  .form {
+    flex-direction: column;
+  }
+
+  .text {
+    text-align: center;
+  }
+}/*# sourceMappingURL=subscribeblock.module.css.map */

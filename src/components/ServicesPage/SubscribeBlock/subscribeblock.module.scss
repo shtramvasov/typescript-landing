@@ -1,0 +1,38 @@
+@import '../../../styles/colors';
+@import '../../../styles/breakpoints';
+
+.container {
+  margin: 9rem 0;
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  h4 {
+    color: $blue;
+    padding-bottom: 1rem;
+  }
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: $screen-medium) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: $screen-small) {
+  .form {
+    flex-direction: column;
+  }
+
+  .text {
+    text-align: center;
+  }
+}

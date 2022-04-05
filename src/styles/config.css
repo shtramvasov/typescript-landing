@@ -142,6 +142,15 @@ button {
   cursor: pointer;
 }
 
+button:disabled {
+  background-color: #D4DAE0;
+  color: #AFBBC6;
+}
+button:disabled:hover {
+  background-color: #D4DAE0;
+  color: #AFBBC6;
+}
+
 .btn {
   background-color: #5187E2;
 }
@@ -154,4 +163,29 @@ button {
 }
 .btn-alt:hover {
   background-color: #FFDB7E;
+}
+
+input {
+  border: 1px solid #EBEFF2;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 28rem;
+  border-radius: 12px;
+  padding: 0.7rem 1.5rem;
+  transition: ease-in-out 300ms;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #ccd6de;
+}
+
+.gray {
+  background-color: #F8F9FA;
+}
+
+@media (max-width: 680px) {
+  input {
+    width: 18rem;
+  }
 }/*# sourceMappingURL=config.css.map */
