@@ -20,7 +20,7 @@
   padding-bottom: 2rem;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 980px) {
   .container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;

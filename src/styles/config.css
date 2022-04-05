@@ -28,7 +28,7 @@ html {
   padding: 2.8rem 6.5rem 0;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 980px) {
   .app-wrapper {
     padding: 1.6rem 4rem 0;
   }
@@ -120,7 +120,7 @@ html {
   padding: 2.8rem 6.5rem 0;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 980px) {
   .app-wrapper {
     padding: 1.6rem 4rem 0;
   }
