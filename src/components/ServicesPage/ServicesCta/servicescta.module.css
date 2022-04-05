@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem;
+  margin: 6rem 0 10rem;
+}
+.container h2 {
+  padding-bottom: 1.5rem;
+}
+.container p {
+  padding-bottom: 2rem;
+}/*# sourceMappingURL=servicescta.module.css.map */
