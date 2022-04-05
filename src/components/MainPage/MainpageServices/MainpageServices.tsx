@@ -1,7 +1,7 @@
 import React from 'react' 
 import style from '../MainpageServices/mainpageservices.module.css'
-import { FeatureItem } from '../FeatureItem/FeatureItem'
-import githubimg from '../../img/main-github.png'
+import { FeatureItem } from '../../Utils/FeatureItem/FeatureItem'
+import githubimg from '../../../img/main-github.png'
 
 export const MainpageServices: React.FC = () => {
   return (

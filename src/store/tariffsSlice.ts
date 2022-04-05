@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 interface ITariff {
-  name: 'Starter' | 'Buisness' | 'Enterprise' | 'Custom' | null, 
+  name: 'Starter' | 'Buisness' | 'Enterprise' | 'Custom', 
   members: number | 'Unlimited',
   traffic: number | 'Unlimited',
   space: number,
@@ -10,7 +10,7 @@ interface ITariff {
 }
 
 const initialState: ITariff = {
-  name: null,
+  name: 'Custom',
   members: 0,
   traffic: 0,
   space: 0,
@@ -18,16 +18,19 @@ const initialState: ITariff = {
   price: 0
 }
 
+console.log(initialState.price)
+
 const tariffsSlice = createSlice({
   name: 'tariffs',
-  initialState,
+  initialState: initialState,
   reducers: {
-    chooseTariff(state: ITariff, action: PayloadAction) {
+    updateTariff(state: ITariff, action) {
       // payload
-    }
-  }
+    },
+  },
 });
 
-export const { chooseTariff } = tariffsSlice.actions;
+
+export const { updateTariff } = tariffsSlice.actions;
 
 export default tariffsSlice.reducer;

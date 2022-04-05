@@ -1,8 +1,8 @@
 import React from 'react'
-import { FeaturesBlock } from '../components/FeaturesBlock/FeaturesBlock'
-import { FeaturesCta } from '../components/FeaturesCta/FeaturesCta'
-import { Footer } from '../components/Footer/Footer'
-import { HeaderMenu } from '../components/HeaderMenu/HeaderMenu'
+import { FeaturesBlock } from '../components/FeaturesPage/FeaturesBlock/FeaturesBlock'
+import { FeaturesCta } from '../components/FeaturesPage/FeaturesCta/FeaturesCta'
+import { Footer } from '../components/Utils/Footer/Footer'
+import { HeaderMenu } from '../components/Utils/HeaderMenu/HeaderMenu'
 
 export const Featurespage: React.FC = () => {
   return (

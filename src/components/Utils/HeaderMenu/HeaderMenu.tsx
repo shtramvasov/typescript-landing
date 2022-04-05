@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import styles from '../HeaderMenu/headermenu.module.css'
-import Logo from '../../img/logo.svg'
+import Logo from '../../../img/logo.svg'
 
 interface Props {
   title: string,

@@ -1,8 +1,8 @@
 import React from 'react' 
-import { FeatureItem } from '../FeatureItem/FeatureItem'
+import { FeatureItem } from '../../Utils/FeatureItem/FeatureItem'
 import style from '../MainpageFeatures/mainpagefeatures.module.css'
-import rocketimg from '../../img/main-rocket.png'
-import appimg from '../../img/main-app.png'
+import rocketimg from '../../../img/main-rocket.png'
+import appimg from '../../../img/main-app.png'
 
 export const MainpageFeatures: React.FC = () => {
   return (

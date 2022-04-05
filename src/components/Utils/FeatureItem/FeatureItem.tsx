@@ -1,7 +1,7 @@
 import React from 'react' 
 import { Button } from '../Button/Button'
 import { motion } from 'framer-motion'
-import opacityVariant from '../../utils/framer'
+import opacityVariant from '../../../utils/framer'
 import styles from '../FeatureItem/featureitem.module.css'
 
 interface Props {

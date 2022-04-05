@@ -1,8 +1,8 @@
 import React from 'react' 
 import styles from '../TariffHelper/tariffhelper.module.css'
 import { motion } from 'framer-motion'
-import opacityVariant from '../../utils/framer'
-import dog from '../../img/main-dog.png'
+import opacityVariant from '../../../utils/framer'
+import dog from '../../../img/main-dog.png'
 
 
 export const TarifHelper: React.FC = () => {

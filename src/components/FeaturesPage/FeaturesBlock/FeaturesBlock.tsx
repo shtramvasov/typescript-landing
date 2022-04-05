@@ -1,9 +1,9 @@
 import React from 'react'
-import { FeatureItem } from '../FeatureItem/FeatureItem'
+import { FeatureItem } from '../../Utils/FeatureItem/FeatureItem'
 import style from '../FeaturesBlock/featuresblock.module.css'
-import cicdimg from '../../img/features-cicd.png'
-import githubimg from '../../img/features-github.png'
-import languageimg from '../../img/features-language.png'
+import cicdimg from '../../../img/features-cicd.png'
+import githubimg from '../../../img/features-github.png'
+import languageimg from '../../../img/features-language.png'
 
 export const FeaturesBlock: React.FC = () => {
   return (

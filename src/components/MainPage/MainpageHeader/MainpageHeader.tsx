@@ -1,10 +1,10 @@
 import React from 'react'
-import { HeaderMenu } from '../HeaderMenu/HeaderMenu'
+import { HeaderMenu } from '../../Utils/HeaderMenu/HeaderMenu'
 import { motion } from 'framer-motion'
 import styles from '../MainpageHeader/mainpageheader.module.css'
-import pyramid from '../../img/main-pyramid.png'
-import coins from '../../img/main-coins.png'
-import chat from '../../img/main-chat.png'
+import pyramid from '../../../img/main-pyramid.png'
+import coins from '../../../img/main-coins.png'
+import chat from '../../../img/main-chat.png'
 
 export const MainpageHeader: React.FC = () => {
   return (
