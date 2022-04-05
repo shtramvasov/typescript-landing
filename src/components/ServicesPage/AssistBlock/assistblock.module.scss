@@ -1,0 +1,45 @@
+@import '../../../styles/breakpoints';
+@import '../../../styles/colors';
+@import '../../../styles/global';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+
+  p {
+    text-align: center;
+    max-width: 50%;
+  }
+}
+
+.item {
+  display: flex;
+  contain: content;
+  margin-top: 7rem;
+  max-width: 85%;
+  padding: 7rem 4rem;
+  background-color: $lightgray;
+  box-shadow: $shadow-form;
+  border-radius: $border-radius;
+  gap: 3rem;
+
+  p {
+    text-align: left;
+    max-width: 100%;
+    line-height: 1.9;
+  }
+}
+
+@media (max-width: $screen-medium) {
+  .item {
+    flex-direction: column;
+
+    * {
+      max-width: 100%;
+    }
+  }
+}
+
+
