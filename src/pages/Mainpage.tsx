@@ -4,6 +4,7 @@ import { ClientsBlock } from '../components/ClientsBlock/ClientsBlock'
 import { MainpageFeatures } from '../components/MainpageFeatures/MainpageFeatures'
 import { MainpageServices } from '../components/MainpageServices/MainpageServices'
 import { TarifHelper } from '../components/TariffHelper/TariffHelper'
+import { Footer } from '../components/Footer/Footer'
 
 export const Mainpage: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ export const Mainpage: React.FC = () => {
       <MainpageFeatures />
       <MainpageServices />
       <TarifHelper />
+      <Footer />
     </>
   )
 }

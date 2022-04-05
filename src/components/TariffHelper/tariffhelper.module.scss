@@ -1,12 +1,12 @@
 @import '../../styles/colors';
+@import '../../styles/global';
 @import '../../styles/breakpoints';
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 0 1.5rem 20rem;
 
   h1 {
     max-width: 46rem;
@@ -15,7 +15,7 @@
 
   p {
     color: $font-gray;
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
     text-align: center;
   }
 
@@ -29,5 +29,11 @@
     display: flex;
     align-items: center;
   }
-
+  
+  .form {
+    background-color: $lightgray;
+    width: 780px;
+    height: 380px;
+    border-radius: $border-radius;
+  }
 }

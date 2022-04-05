@@ -1,9 +1,47 @@
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.flex {
+  display: flex;
+}
+
+.cols {
+  flex-direction: column;
+}
+
+.app-wrapper {
+  padding: 2.8rem 6.5rem 0;
+}
+
+@media (max-width: 980px) {
+  .app-wrapper {
+    padding: 1.6rem 4rem 0;
+  }
+}
+@media (max-width: 680px) {
+  .app-wrapper {
+    padding: 1rem 2rem 0;
+  }
+}
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 0 1.5rem 20rem;
 }
 .container h1 {
   max-width: 46rem;
@@ -11,7 +49,7 @@
 }
 .container p {
   color: #92A7B9;
-  padding-bottom: 8rem;
+  padding-bottom: 6rem;
   text-align: center;
 }
 .container img {
@@ -22,4 +60,10 @@
 .container .card {
   display: flex;
   align-items: center;
+}
+.container .form {
+  background-color: #F8F9FA;
+  width: 780px;
+  height: 380px;
+  border-radius: 20px;
 }/*# sourceMappingURL=tariffhelper.module.css.map */

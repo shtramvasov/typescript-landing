@@ -17,7 +17,9 @@ export const TarifHelper: React.FC = () => {
       <p>Run your app with the power you need. No unexpected costs. Your first 30 days are free — no credit card required.</p>
       <div className={styles.card}>
         <img src={dog} alt="Perandus Helper" />
-        <div className={styles.form}></div>
+        <div className={styles.form}>
+          Placeholder
+        </div>
       </div>
     </motion.section>
   )
