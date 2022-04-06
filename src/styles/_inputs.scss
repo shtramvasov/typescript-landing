@@ -60,6 +60,15 @@ input {
   background-color: $lightgray;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $disabled-font;
+  border-radius: $border-radius-small;
+}
+
 @media (max-width: $screen-small) {
   input {
     width: 18rem;

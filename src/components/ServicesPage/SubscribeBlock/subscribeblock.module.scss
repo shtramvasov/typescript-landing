@@ -30,6 +30,7 @@
 @media (max-width: $screen-small) {
   .form {
     flex-direction: column;
+    gap: 3rem;
   }
 
   .text {

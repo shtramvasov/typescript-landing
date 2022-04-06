@@ -197,6 +197,15 @@ input:focus {
   background-color: #F8F9FA;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #AFBBC6;
+  border-radius: 12px;
+}
+
 @media (max-width: 680px) {
   input {
     width: 18rem;
