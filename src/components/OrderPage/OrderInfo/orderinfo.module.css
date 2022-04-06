@@ -1,0 +1,43 @@
+.infocard {
+  grid-area: infocard;
+  max-width: 20rem;
+}
+.infocard p {
+  color: #92A7B9;
+}
+.infocard p span {
+  color: #5187E2;
+  font-weight: 400;
+}
+.infocard h2 {
+  color: #FFCF53;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #EBEFF2;
+}
+.infocard .price {
+  padding-top: 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.infocard .price h2 {
+  color: #212E44;
+  border: none;
+}
+.infocard .stats * {
+  padding-bottom: 0.5rem;
+}
+.infocard .stats * .online {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../../../img/icon-online.svg");
+  background-repeat: no-repeat;
+}
+.infocard .stats * .offline {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../../../img/icon-offline.svg");
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=orderinfo.module.css.map */

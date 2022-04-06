@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import styles from '../HeaderMenu/headermenu.module.css'
+import styles from '../Header/headermenu.module.css'
 import Logo from '../../../img/logo.svg'
 
 interface Props {
@@ -12,8 +12,9 @@ interface Props {
   }
 }
 
-export const HeaderMenu: React.FC<Props> = (props) => {
+export const Header: React.FC<Props> = (props) => {
   let accent: string = props.accent?.color === 'blue' ? 'blue' : 'yellow';
+  
   return (
     <div className='app-wrapper'>
       <motion.div 
@@ -21,9 +22,9 @@ export const HeaderMenu: React.FC<Props> = (props) => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.3, duration: 1}}>
-          <Link to="/">
-            <img src={Logo} alt="Perandus" />
-          </Link>
+        <Link to="/">
+          <img src={Logo} alt="Perandus" />
+        </Link>
         <nav className={styles.nav}>
           <Link className='menulink' to="/pricing">Pricing</Link>
           <Link className='menulink' to="/features">Features</Link>

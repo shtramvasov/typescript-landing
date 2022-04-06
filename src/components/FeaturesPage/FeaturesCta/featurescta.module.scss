@@ -1,6 +1,6 @@
-@import '../../styles/colors';
-@import '../../styles/breakpoints';
-@import '../../styles/global';
+@import '../../../styles/colors';
+@import '../../../styles/breakpoints';
+@import '../../../styles/global';
 
 .container {
   padding: 1.5rem;
@@ -17,7 +17,6 @@
   justify-content: space-evenly;
   align-items: center;
   max-width: 70%;
-
 }
 
 .text {

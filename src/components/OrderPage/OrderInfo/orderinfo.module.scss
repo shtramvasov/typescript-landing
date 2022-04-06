@@ -1,0 +1,53 @@
+@import '../../../styles/colors';
+
+.infocard {
+  grid-area: infocard;
+  max-width: 20rem;
+
+  p {
+    color: $font-gray;
+
+    span {
+      color: $blue;
+      font-weight: 400;
+    }
+  }
+
+  h2 {
+    color: $yellow;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid $darkgray;
+  }
+
+  .price {
+    padding-top: 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+
+    h2 {
+      color: $font-black;
+      border: none;
+    }
+  }
+
+  .stats * {
+    padding-bottom: 0.5rem;
+
+    .online {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-image: url('../../../img/icon-online.svg');
+      background-repeat: no-repeat;
+    }
+
+    .offline {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      background-image: url('../../../img/icon-offline.svg');
+      background-repeat: no-repeat;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderMenu } from '../../Utils/HeaderMenu/HeaderMenu'
+import { Header } from '../../Utils/Header/Header'
 import { motion } from 'framer-motion'
 import styles from '../MainpageHeader/mainpageheader.module.css'
 import pyramid from '../../../img/main-pyramid.png'
@@ -9,7 +9,7 @@ import chat from '../../../img/main-chat.png'
 export const MainpageHeader: React.FC = () => {
   return (
     <div className={styles.container}>
-      <HeaderMenu
+      <Header
         title='Cloud services made simple with'
         accent={{
           color: 'blue',

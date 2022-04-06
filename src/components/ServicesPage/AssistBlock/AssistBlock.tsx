@@ -16,12 +16,12 @@ export const AssistBlock: React.FC = () => {
 				you a variety of support options so you can put all your focus on
 				building great apps.
 			</motion.p>
-			<motion.div 
-        className={style.item}
-        initial={{ opacity: 0, y: 40 }}
+			<motion.div
+				className={style.item}
+				initial={{ opacity: 0, y: 40 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ delay: 1.5, duration: 1 }}
-        >
+			>
 				<AssistCard
 					title='Perandus Support'
 					description='We are committed to your success. Whether your app is for an emerging brand or a Fortune 500 company — we’ve got your back.'

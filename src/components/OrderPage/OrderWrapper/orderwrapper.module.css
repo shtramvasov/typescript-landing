@@ -56,66 +56,6 @@ html {
   color: #5187E2;
 }
 
-.infocard {
-  grid-area: infocard;
-  max-width: 20rem;
-}
-.infocard p {
-  color: #92A7B9;
-}
-.infocard p span {
-  color: #5187E2;
-  font-weight: 400;
-}
-.infocard h2 {
-  color: #FFCF53;
-  padding-bottom: 1rem;
-  border-bottom: 2px solid #EBEFF2;
-}
-.infocard .price {
-  padding-top: 1rem;
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-}
-.infocard .price h2 {
-  color: #212E44;
-  border: none;
-}
-.infocard .stats * {
-  padding-bottom: 0.5rem;
-}
-.infocard .stats * .online {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-image: url("../../../img/icon-online.svg");
-  background-repeat: no-repeat;
-}
-.infocard .stats * .offline {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-image: url("../../../img/icon-offline.svg");
-  background-repeat: no-repeat;
-}
-
-.form {
-  max-width: 28rem;
-  grid-area: form;
-}
-.form p {
-  padding-bottom: 0.5rem;
-}
-.form .input {
-  padding-bottom: 1.5rem;
-}
-.form .buttons {
-  padding-top: 1rem;
-  display: flex;
-  justify-content: space-between;
-}
-
 .logo {
   grid-area: logo;
 }
@@ -132,12 +72,5 @@ html {
   }
   .wrapper h1 {
     text-align: center;
-  }
-}
-@media (max-width: 680px) {
-  .buttons {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
   }
 }/*# sourceMappingURL=orderwrapper.module.css.map */

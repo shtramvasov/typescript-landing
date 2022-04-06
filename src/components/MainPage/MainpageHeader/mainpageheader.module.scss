@@ -1,5 +1,5 @@
-@import '../../styles/colors';
-@import '../../styles/breakpoints';
+@import '../../../styles/colors';
+@import '../../../styles/breakpoints';
 
 .container {
   min-height: 100vh;
@@ -55,9 +55,7 @@
   .chat {
     visibility: hidden;
   }
-}
 
-@media (max-width: $screen-medium) {
   .images {
     padding-top: 2rem;
   }

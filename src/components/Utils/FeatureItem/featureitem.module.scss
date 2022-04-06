@@ -1,5 +1,5 @@
-@import '../../styles/breakpoints';
-@import '../../styles/colors';
+@import '../../../styles/breakpoints';
+@import '../../../styles/colors';
 
 .card {
   display: flex;
@@ -49,9 +49,6 @@
   .info {
     max-width: 20rem;
 
-    h2 {
-      font-size: 2.5rem;
-    }
   }
 }
 
