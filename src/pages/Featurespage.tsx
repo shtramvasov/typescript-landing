@@ -11,7 +11,7 @@ export const Featurespage: React.FC = () => {
       title='Everything you need to go'
       accent={{
         text: 'from development to production',
-        color: 'blue'
+        color: 'yellow'
       }}
     />
     <FeaturesBlock />

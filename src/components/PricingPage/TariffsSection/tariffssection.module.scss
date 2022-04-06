@@ -1,0 +1,15 @@
+@import '../../../styles/colors';
+@import '../../../styles/global';
+@import '../../../styles/breakpoints';
+
+.container {
+  width: 1300px;
+  height: 700px;
+  margin: 4rem auto;
+  background-color: $font-gray;
+  border-radius: $border-radius;
+}
+
+
+
+

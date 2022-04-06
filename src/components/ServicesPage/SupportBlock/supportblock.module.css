@@ -1,6 +1,7 @@
 .container {
   margin-top: 3rem;
   background-image: url("../../../img/services-bg.svg");
+  background-size: cover;
 }
 .container h1 {
   padding: 12rem 1.5rem;

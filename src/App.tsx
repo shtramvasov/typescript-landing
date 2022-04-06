@@ -18,9 +18,7 @@ function App() {
         <Route path="/features" element={<Featurespage />}/>
         <Route path="/services" element={<Servicespage />}/>
         <Route path="/order" element={<Orderpage />}/>
-        <Route 
-          path="*" 
-          element={<Navigate to="/" />}/>
+        <Route path="*" element={<Navigate to="/" />}/>
       </Routes>
     </>
   );
