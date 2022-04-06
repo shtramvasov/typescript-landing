@@ -11,14 +11,12 @@ interface ITariff {
 
 const initialState: ITariff = {
   name: 'Custom',
-  members: 0,
+  members: 1,
   traffic: 0,
   space: 0,
   alwaysOnline: false,
   price: 0
 }
-
-console.log(initialState.price)
 
 const tariffsSlice = createSlice({
   name: 'tariffs',

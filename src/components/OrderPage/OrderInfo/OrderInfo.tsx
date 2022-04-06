@@ -1,28 +1,37 @@
 import React from 'react'
 import style from '../OrderInfo/orderinfo.module.css'
-
+import { useSelector } from 'react-redux';
+import { RootState } from '../../../store';
 
 export const OrderInfo: React.FC = () => {
+  const tariff = useSelector((state: RootState) => state.tariffs);
+
   return (
 		<div className={style.infocard}>
-			<h2>Buisness</h2>
+			<h2>{tariff.name}</h2>
 			<div className={style.price}>
-				<h2>$12</h2>
+				<h2>${tariff.price}</h2>
 				<p className='light'>per member/per month</p>
 			</div>
 			<div className={style.stats}>
 				<p className='light'>
-					<span>10</span> members
+					<span>{tariff.members}</span> members
 				</p>
 				<p className='light'>
-					<span>80</span> Gb of traffic
+					<span>{tariff.traffic}</span> Gb of traffic
 				</p>
 				<p className='light'>
-					<span>500</span> Mb of SSD space
+					<span>{tariff.traffic}</span> Mb of SSD space
 				</p>
-				<p className='light'>
-					<span className={style.online}></span> Always online
-				</p>
+				{tariff.alwaysOnline ? (
+					<p className='light'>
+						<span className={style.online}></span> Always online
+					</p>
+				) : (
+					<p className='light'>
+						<span className={style.offline}></span> Offline when unused
+					</p>
+				)}
 			</div>
 		</div>
 	);
