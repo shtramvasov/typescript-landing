@@ -1,4 +1,5 @@
 @import 'breakpoints';
+@import 'colors';
 // Global Settings
 
 *, *::after, *::before {
@@ -23,6 +24,17 @@ $transition: ease-in-out 300ms;
 $border-radius: 20px;
 $border-radius-small: 12px;
 
+.blue {
+  color: $blue;
+}
+
+.red {
+  color: $red;
+}
+
+.yellow {
+  color: $yellow;
+}
 
 // Structure
 

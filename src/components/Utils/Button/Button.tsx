@@ -10,7 +10,7 @@ interface Props {
 }
 
 export const Button: React.FC<Props> = ({text, color, link, disabled, type = 'button'}) => {
-  return (
-    <Link to={`/${link}`}><button type={type} disabled={disabled} className={color === 'blue' ? 'btn' : 'btn-alt'}>{text}</button></Link>
-  )
-}
+	return (
+		<Link to={`/${link}`}><button type={type} disabled={disabled} className={color === 'blue' ? 'btn' : 'btn-alt'}>{text}</button></Link>
+	);
+};

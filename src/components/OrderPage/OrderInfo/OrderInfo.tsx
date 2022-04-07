@@ -21,7 +21,7 @@ export const OrderInfo: React.FC = () => {
 					<span>{tariff.traffic}</span> Gb of traffic
 				</p>
 				<p className='light'>
-					<span>{tariff.traffic}</span> Mb of SSD space
+					<span>{tariff.space}</span> Mb of SSD space
 				</p>
 				{tariff.alwaysOnline ? (
 					<p className='light'>

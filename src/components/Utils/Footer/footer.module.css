@@ -15,6 +15,18 @@ html {
   font-weight: 300;
 }
 
+.blue {
+  color: #5187E2;
+}
+
+.red {
+  color: #E25151;
+}
+
+.yellow {
+  color: #FFCF53;
+}
+
 .flex {
   display: flex;
 }

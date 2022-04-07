@@ -1,0 +1,125 @@
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.blue {
+  color: #5187E2;
+}
+
+.red {
+  color: #E25151;
+}
+
+.yellow {
+  color: #FFCF53;
+}
+
+.flex {
+  display: flex;
+}
+
+.cols {
+  flex-direction: column;
+}
+
+.app-wrapper {
+  padding: 2.8rem 6.5rem 0;
+}
+
+@media (max-width: 980px) {
+  .app-wrapper {
+    padding: 1.6rem 4rem 0;
+  }
+}
+@media (max-width: 680px) {
+  .app-wrapper {
+    padding: 1rem 2rem 0;
+  }
+}
+.plan {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(219, 219, 219, 0.2);
+  padding: 1.5rem;
+}
+
+.planheader {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #EBEFF2;
+}
+.planheader h3 {
+  padding-bottom: 1rem;
+}
+.planheader h1 {
+  text-align: left;
+  padding: 0;
+}
+.planheader p {
+  color: #92A7B9;
+}
+
+.planbody {
+  padding-top: 1.5rem;
+}
+.planbody h4 {
+  padding-bottom: 2rem;
+}
+.planbody .stat {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+  gap: 0.7rem;
+}
+.planbody .stat strong {
+  color: #5187E2;
+  font-weight: 400;
+}
+.planbody .stat span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.planbody .stat span.membericon {
+  background-image: url("../../../img/icon-member.svg");
+}
+.planbody .stat span.tarifficon {
+  background-image: url("../../../img/icon-traffic.svg");
+}
+.planbody .stat span.spaceicon {
+  background-image: url("../../../img/icon-space.svg");
+}
+.planbody .statusblock {
+  text-align: center;
+  padding: 2rem 0 4rem;
+}
+.planbody .statusblock span {
+  display: inline-flex;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  padding-right: 1rem;
+}
+.planbody .statusblock span.online {
+  background-image: url("../../../img/icon-online.svg");
+}
+.planbody .statusblock span.offline {
+  background-image: url("../../../img/icon-offline.svg");
+}
+.planbody .buttons {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=plancard.module.css.map */

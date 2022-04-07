@@ -3,7 +3,7 @@ import style from '../SubscribeBlock/subscribeblock.module.css'
 import { motion } from 'framer-motion'
 import opacityVariant from '../../../utils/framer'
 import { Input } from '../../Utils/Input/Input'
-import { Button } from '../../Utils/Button/Button'
+import { Submit } from '../../Utils/Submit/Submit'
 
 export const SubscribeBlock: React.FC = () => {
   return (
@@ -23,7 +23,7 @@ export const SubscribeBlock: React.FC = () => {
           color='gray'
           placeholder='Your email address'
         />
-        <Button 
+        <Submit 
           text='Subscribe'
           type='button'
           color='blue'

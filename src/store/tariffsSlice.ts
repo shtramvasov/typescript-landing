@@ -23,7 +23,14 @@ const tariffsSlice = createSlice({
   initialState: initialState,
   reducers: {
     updateTariff(state: ITariff, action) {
-      // payload
+      const data = action.payload.props
+
+      state.name = data.name
+      state.price = data.price
+      state.members = data.members.quant
+      state.traffic = data.traffic.quant
+      state.space = data.space.quant
+      state.alwaysOnline = data.isOnline 
     },
   },
 });
