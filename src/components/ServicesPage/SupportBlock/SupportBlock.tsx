@@ -4,6 +4,7 @@ import style from '../SupportBlock/supportblock.module.css'
 import { motion } from 'framer-motion'
 import opacityVariant from '../../../utils/framer'
 
+
 export const SupportBlock: React.FC = () => {
   return (
 		<motion.section

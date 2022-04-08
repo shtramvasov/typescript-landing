@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../PlanCard/plancard.module.css'
-import { Link } from 'react-router-dom';
-import { Submit } from '../Submit/Submit'
+import { Button } from '../Button/Button';
 import { useDispatch } from 'react-redux';
 import { updateTariff } from '../../../store/tariffsSlice';
 
@@ -29,6 +28,7 @@ interface Props {
 export const PlanCard: React.FC<Props> = (props) => {
 	const dispatch = useDispatch();
 	const update = () => dispatch(updateTariff({ props }));
+  
 	return (
 		<div className={styles.plan}>
 			<div className={styles.planheader}>
@@ -68,9 +68,7 @@ export const PlanCard: React.FC<Props> = (props) => {
 					</div>
 				)}
 				<div className={styles.buttons}>
-					<Link to='/order'>
-						<Submit color='blue' text='Get Started' fn={update} />
-					</Link>
+          <Button link='order' type='submit' color='blue' text='Get Started' fn={update} />
 				</div>
 			</div>
 		</div>

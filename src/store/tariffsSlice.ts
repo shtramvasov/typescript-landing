@@ -24,7 +24,7 @@ const tariffsSlice = createSlice({
   reducers: {
     updateTariff(state: ITariff, action) {
       const data = action.payload.props
-
+      
       state.name = data.name
       state.price = data.price
       state.members = data.members.quant

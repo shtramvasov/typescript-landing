@@ -230,6 +230,32 @@ body::-webkit-scrollbar-thumb {
   border-radius: 12px;
 }
 
+select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 300;
+  border: none;
+  color: #5187E2;
+  background-color: transparent;
+  border-bottom: 2px solid #B6CDF2;
+  background-image: url("../img/icon-dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: 98% center;
+  padding: 0 1.5rem 2px 0.5rem;
+  transition: ease-in-out 300ms;
+  cursor: pointer;
+}
+select:focus {
+  outline: none;
+  background-image: url("../img/icon-dropup.svg");
+}
+select option {
+  color: #212E44;
+}
+
 @media (max-width: 680px) {
   input {
     width: 18rem;
