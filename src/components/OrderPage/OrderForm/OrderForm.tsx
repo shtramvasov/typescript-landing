@@ -1,12 +1,18 @@
 import React from 'react'
 import style from '../OrderForm/orderform.module.css'
+import { motion } from 'framer-motion'
 import { Input } from '../../Utils/Input/Input'
 import { Button } from '../../Utils/Button/Button'
 
 
 export const OrderForm: React.FC = () => {
   return (
-      <form className={style.form}>
+      <motion.form 
+        className={style.form}
+        initial={{ opacity: 0, x: -160 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ delay: 1, duration: 1.2 }}
+      >
         <div className={style.input}>
           <p>Your Name:</p>
           <Input 
@@ -35,6 +41,6 @@ export const OrderForm: React.FC = () => {
             link='pricing'
           />
         </div>
-      </form>
+      </motion.form>
 	);
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import style from '../OrderInfo/orderinfo.module.css'
+import { motion } from 'framer-motion'
 import { useSelector } from 'react-redux';
 import { RootState } from '../../../store';
 
@@ -7,7 +8,12 @@ export const OrderInfo: React.FC = () => {
   const tariff = useSelector((state: RootState) => state.tariffs);
 
   return (
-		<div className={style.infocard}>
+		<motion.div 
+      className={style.infocard}
+			initial={{ opacity: 0, x: -160 }}
+			animate={{ opacity: 1, x: 0 }}
+			transition={{ delay: 1, duration: 1.2 }}
+    >
 			<h2>{tariff.name}</h2>
 			<div className={style.price}>
 				<h2>${tariff.price}</h2>
@@ -33,6 +39,6 @@ export const OrderInfo: React.FC = () => {
 					</p>
 				)}
 			</div>
-		</div>
+		</motion.div>
 	);
 }

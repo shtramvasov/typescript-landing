@@ -10,21 +10,13 @@
   border-radius: $border-radius;
 }
 
-.toggle {
-  display: inline-block;
-  width: 430px;
-  height: 70px;
-  background-color: $darkgray;
-  border-radius: $border-radius;
-  margin-bottom: 4rem;
-}
-
 .items {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   justify-content: space-evenly;
+  margin-top: 4rem;
   padding-bottom: 5rem;
 }
 

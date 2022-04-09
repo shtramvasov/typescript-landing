@@ -1,12 +1,21 @@
 import React from 'react'
 import { PlanCard } from '../../Utils/PlanCard/PlanCard'
 import styles from '../TariffsSection/tariffssection.module.css'
+import { motion } from 'framer-motion'
 
 export const TariffsSection: React.FC = () => {
   return (
 		<div className={styles.container}>
-			<div className={styles.toggle}>Placeholder</div>
-			<div className={styles.items}>
+			<motion.div
+				className={styles.items}
+				initial={{ opacity: 0, y: 120 }} 
+        animate={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 1.5, 
+            duration: 1,
+            opacity: { duration: 1 },
+            y: { duration: 1.5 }}}
+			>
 				<PlanCard
 					name='Starter'
 					price={0}
@@ -64,7 +73,7 @@ export const TariffsSection: React.FC = () => {
 					}}
 					isOnline={true}
 				/>
-			</div>
+			</motion.div>
 		</div>
 	);
 }

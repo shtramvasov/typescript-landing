@@ -4,6 +4,7 @@ import styles from '../PricingpageHeader/pricingpageheader.module.css'
 import { TariffsSection } from '../TariffsSection/TariffsSection'
 
 export const PricingpageHeader: React.FC = () => {
+
   return (
     <div className={styles.container}>
       <Header
