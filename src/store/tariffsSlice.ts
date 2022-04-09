@@ -1,4 +1,4 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'
 
 interface ITariff {
   name: 'Starter' | 'Buisness' | 'Enterprise' | 'Custom', 
@@ -35,7 +35,5 @@ const tariffsSlice = createSlice({
   },
 });
 
-
 export const { updateTariff } = tariffsSlice.actions;
-
 export default tariffsSlice.reducer;
