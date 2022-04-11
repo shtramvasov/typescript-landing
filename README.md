@@ -70,4 +70,4 @@ Medium screen
 
 ---
 Small screen
-![Small screen](/src/img/readme/small.png)
+![Small screen](/src/img/readme/small.PNG)
