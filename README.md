@@ -27,7 +27,7 @@ interface Props {
 }
 ```
 ---
-![Buttons](src/img/readme/buttons.png)
+![Buttons](/src/img/readme/buttons.PNG)
 
 ---
 
@@ -55,19 +55,19 @@ This is a Redux dispatch action in Tarif Helper component:
   };
 ```
 ---
-![Buttons](src/img/readme/helper.png)
+![Buttons](/src/img/readme/helper.PNG)
 
 ---
 
 Example of responsive design:
 
 Large screen
-![Large screen](src/img/readme/large.png)
+![Large screen](/src/img/readme/large.PNG)
 
 ---
 Medium screen
-![Medium screen](src/img/readme/medium.png)
+![Medium screen](/src/img/readme/medium.PNG)
 
 ---
 Small screen
-![Small screen](src/img/readme/small.png)
+![Small screen](/src/img/readme/small.png)
