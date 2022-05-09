@@ -1,5 +1,5 @@
 # Hosting service landing page
-__Perandus__ is a landing page website landing page written in TypeScript, designed for hosting services startups made with React and Redux.
+__Perandus__ is a landing page written in TypeScript, designed for hosting services startups made with React and Redux.
 
 ## Demo
 Deployed on Vercel— [perandus](https://perandus.vercel.app/)
