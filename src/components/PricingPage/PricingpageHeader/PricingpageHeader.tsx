@@ -8,10 +8,10 @@ export const PricingpageHeader: React.FC = () => {
   return (
     <div className={styles.container}>
       <Header
-        title='Cloud services made simple with'
+        title='Development to production.'
         accent={{
-          color: 'blue',
-          text: 'Perandus'
+          color: 'yellow',
+          text: 'Choose your plan.'
         }}
       />
       <TariffsSection />
